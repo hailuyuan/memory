@@ -32,19 +32,6 @@ int main(void)
     myfree(test_t_p1[0]);
     myfree(test_t_p1[1]);
    
-    
-    // for(int i=0;i<10;i++)
-    // {
-       // myfree(test_t_p1[i]); 
-    // }
     printf("number of free block is %d\n",get_free_block_num());   
-    // for(int i=0;i<10;i++)
-    // {
-        // test_t_p1[i] = mymalloc(sizeof(struct test_t)); 
-    // }
-     // for(int i=0;i<10;i++)
-    // {
-       // printf("test_t_p1[%d] = %p\n",i,test_t_p1[i]);
-    // }
     return 0;
 }
